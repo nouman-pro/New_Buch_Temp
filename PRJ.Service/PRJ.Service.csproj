@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="OpenTok" Version="3.8.1" />
+    <PackageReference Include="SendGrid" Version="9.28.1" />
+    <PackageReference Include="Stripe.net" Version="41.2.0" />
+    <PackageReference Include="Twilio" Version="5.80.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PRJ.DataAccess\PRJ.DataAccess.csproj" />
+    <ProjectReference Include="..\PRJ.Repository\PRJ.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Ambulance Module\" />
+  </ItemGroup>
+
+</Project>
