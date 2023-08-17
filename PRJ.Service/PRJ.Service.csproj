@@ -22,7 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\Ambulance Module\" />
+    <Folder Include="Services\Ambulance\DTOs\" />
+    <Folder Include="Services\Driver\" />
+    <Folder Include="Services\Patient\" />
   </ItemGroup>
 
 </Project>

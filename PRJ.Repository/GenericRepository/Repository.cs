@@ -1,4 +1,6 @@
 ﻿
+using PRJ.DataAccess.Entities;
+
 namespace PRJ.Repository.Repositories;
 public class Repository<T> : IRepository<T> where T : class
 {

@@ -8,7 +8,7 @@ global using PRJ.Utility.SendGrid;
 global using PRJ.Utility.TwilioMessenger;
 global using System.Linq;
 global using Microsoft.EntityFrameworkCore;
-global using PRJ.DataAccess.Entities;
+global using PRJ.DataAccess;
 
 // Class Library
 global using PRJ.Repository.UnitOfWorks;

@@ -7,7 +7,7 @@ global using System.Data;
 global using PRJ.Utility;
 
 // Folders
-//global using PRJ.DataAccess.Entities;
+global using PRJ.DataAccess.Entities;
 
 
 
